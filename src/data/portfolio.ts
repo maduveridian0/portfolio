@@ -9,7 +9,6 @@ import {
   LayoutDashboard,
   LineChart,
   ShieldCheck,
-  Sparkles,
   Workflow
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
@@ -92,16 +91,16 @@ export const skillCategories: SkillCategory[] = [
 
 export const projects: Project[] = [
   {
-    name: "SpecForge AI",
+    name: "BugLens AI",
     description:
-      "An AI-powered technical documentation assistant that transforms feature descriptions, bugs and requirements into BDD scenarios, acceptance criteria, validation checklists and Confluence-ready summaries.",
+      "An intelligent bug and QA assistant where users can paste bug reports, screen captures, console errors or problem descriptions, and the AI turns them into an organized diagnosis for the team.",
     features: [
-      "Generate BDD scenarios",
-      "Generate acceptance criteria",
-      "Create validation checklists",
-      "Generate technical summaries",
-      "Save documentation history",
-      "Export generated content"
+      "Analyze bug descriptions",
+      "Interpret console errors",
+      "Extract context from screenshots",
+      "Suggest possible root causes",
+      "Generate QA validation notes",
+      "Create team-ready bug summaries"
     ],
     technologies: [
       "Next.js",
@@ -112,9 +111,9 @@ export const projects: Project[] = [
       "OpenAI API",
       "Tailwind CSS"
     ],
-    githubUrl: "https://github.com/placeholder/specforge-ai",
-    liveUrl: "https://specforge-ai.example.com",
-    icon: Sparkles
+    githubUrl: "https://github.com/placeholder/buglens-ai",
+    liveUrl: "https://buglens-ai.example.com",
+    icon: Bot
   },
   {
     name: "LoadView",
@@ -206,7 +205,7 @@ export const achievements = [
 ];
 
 export const contactLinks = {
-  email: "mailto:placeholder@email.com",
+  email: "mariaeaveridiano@gmail.com",
   linkedin: "https://www.linkedin.com/in/maria-eduarda-alves-veridiano/",
-  github: "https://github.com/placeholder"
+  github: "https://github.com/maduveridian0"
 };
